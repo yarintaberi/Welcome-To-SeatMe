@@ -207,10 +207,9 @@ body::after {
 }
 
 /* Logo */
-.logo {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.4px;
+.logo img {
+  height: 36px;
+  width: auto;
 }
 
 /* Main Title */
