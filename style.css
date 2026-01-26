@@ -3,7 +3,8 @@ body {
   min-height: 100vh;
   margin: 0;
   background: #f8fbff;
-  overflow: hidden;
+overflow-x: hidden;
+overflow-y: auto;
   position: relative;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -196,6 +197,7 @@ body::after {
 .hero {
   min-height: 100vh;
   padding: 24px 20px 60px;
+  
 
   display: flex;
   flex-direction: column;
