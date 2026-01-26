@@ -205,13 +205,15 @@ body::after {
   justify-content: flex-start;
 
   text-align: center;
-  gap: 18px;
+  gap: 12px;
 }
 
 /* Logo */
 .logo img {
-  height: 36px;
+  .logo img {
+  height: 52px;
   width: auto;
+}
 }
 
 /* Main Title */
