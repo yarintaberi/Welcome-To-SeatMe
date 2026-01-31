@@ -245,11 +245,16 @@ body::after {
 }
 
 
-/* ===== Full width banner ===== */
-.how-it-works-banner {
-  width: 100%;
-  padding: 18px 20px;
+/* ===== How it works banner (FULL WIDTH inside hero) ===== */
+.hero .how-it-works-banner {
+  width: 100vw;                 /* רוחב מלא מסך */
+  margin-left: calc(50% - 50vw); /* מבטל padding של hero */
+  margin-right: calc(50% - 50vw);
 
+  padding: 22px 20px;           /* יותר גבוה */
+
+  border-radius: 0 !important;  /* בלי עיגול */
+  
   background: linear-gradient(
     90deg,
     rgba(80, 150, 255, 0.95),
@@ -259,8 +264,8 @@ body::after {
   color: #ffffff;
   text-align: center;
 
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 20px;              /* טקסט גדול */
+  font-weight: 900;
   letter-spacing: 0.2px;
 
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
